@@ -9,6 +9,7 @@ import java.util.Scanner;
  */
 
 public class FibonacciCalc {
+	
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
@@ -20,12 +21,9 @@ public class FibonacciCalc {
 		
 		// printing Fibonacci series upto number by recursion
 		for (int ind = 1; ind <= number; ind++) {
-			System.out.print(fibonacci(ind) + " ");
-//			System.out.print(fibonacci2(ind) + " ");
+//			System.out.print(fibonacci(ind) + " ");
+			System.out.print(fibonacci2(ind) + " ");
 		}
-		
-		
-
 
 	}
 
@@ -58,6 +56,8 @@ public class FibonacciCalc {
         return fibonacci; 
       
     }   
+    
+    
 
 }
 
