@@ -3,10 +3,10 @@ package fibonacciseries;
 
 import java.util.Scanner;
 
-/*
+/**
  * Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. 
  * 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 
- */
+ **/
 
 public class FibonacciCalc {
 	
